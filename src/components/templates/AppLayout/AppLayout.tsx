@@ -1,6 +1,8 @@
-import React from 'react';
-import Header from '@orgs/Header';
-import Footer from '@orgs/Footer';
+// import React from 'react';
+// import Header from '@orgs/Header';
+// import Footer from '@orgs/Footer';
+import Header from "../../organisms/Header";
+import Footer from "../../organisms/Footer";
 
 interface AppLayoutProps {
   children: React.ReactNode;

@@ -1,5 +1,6 @@
 import React from "react";
-import AppLayout from "@temps/AppLayout";
+// import AppLayout from "@temps/AppLayout";
+import AppLayout from "../../templates/AppLayout";
 
 const HomePage: React.FC = () => {
   return (
