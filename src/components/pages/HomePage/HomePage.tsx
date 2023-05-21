@@ -1,19 +1,19 @@
 import React from "react";
-// import AppLayout from "@temps/AppLayout";
-// import AppLayout from "../../templates/AppLayout";
-import "./homepage.scss";
-import FeaturesSection from "@orgs/HomepageSections/FeaturesSection.tsx";
+import FeaturesSection from "@orgs/HomepageSections/FeaturesSection";
 import Footer from "@mols/Footer";
-import HeroSection from "@/components/organisms/HomepageSections/HeroSection";
+import HeroSection from "@orgs/HomepageSections/HeroSection";
 
 const HomePage: React.FC = () => {
   return (
     <div className="w-full">
       <HeroSection />
+      {/* <div className="mt-[100px] mx-[175px] flex flex-col items-center"> */}
       <div className="container mt-[100px]">
-        <FeaturesSection />
-        <Footer />
+        <div className="flex flex-col items-center">
+          <FeaturesSection />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };

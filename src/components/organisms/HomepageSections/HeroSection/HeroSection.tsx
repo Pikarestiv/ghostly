@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
   return (
     <div className="hero__section h-screen relative flex flex-col items-center">
       <Header />
-      <div className="absolute h-screen hero__section-image w-full z-[-1]">
+      <div className="absolute top-0 h-screen hero__section-image w-full z-[-1]">
         <div className="relative w-full overflow-hidden">
           <img
             className="absolute top-[40px] right-[-320px]"
@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
       </div>
       <Typography
         variant="h2"
-        className="text-6xl text-light font-semibold text-center"
+        className="text-6xl text-light font-semibold text-center mt-[68px]"
       >
         Speak Your Mind
       </Typography>

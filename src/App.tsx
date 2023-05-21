@@ -3,7 +3,7 @@ import Routes from "./routes";
 
 const App: React.FC = () => {
   return (
-    <div className="bg-gray-100 h-screen flex items-center justify-center">
+    <div className="">
       <Routes />
     </div>
   );
