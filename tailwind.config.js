@@ -46,23 +46,23 @@ module.exports = {
       xl: "1200px",
       "2xl": "1440px",
     },
-    // container: {
-    //   center: true,
-    //   padding: {
-    //     DEFAULT: '15px',
-    //     sm: '0',
-    //     lg: '0',
-    //     xl: '0',
-    //     '2xl': '0',
-    //   },
-    //   screens: {
-    //     sm: '540px',
-    //     md: '720px',
-    //     lg: '960px',
-    //     xl: '1140px',
-    //     '2xl': '1260px',
-    //   },
-    // },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '15px',
+        sm: '0',
+        lg: '0',
+        xl: '0',
+        '2xl': '0',
+      },
+      screens: {
+        sm: '540px',
+        md: '720px',
+        lg: '960px',
+        xl: '1140px',
+        '2xl': '1260px',
+      },
+    },
   },
   plugins: [],
 };
