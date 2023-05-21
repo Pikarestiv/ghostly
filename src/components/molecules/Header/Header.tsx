@@ -3,7 +3,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CustomButton from "@atoms/CustomButton";
-import logo from "../../../images/ghostly-logo.svg";
+import logo from "@/images/ghostly-logo.svg";
 import "./header.scss";
 import Typography from "@atoms/Typography";
 

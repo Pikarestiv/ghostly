@@ -1,7 +1,7 @@
 import FeaturesCard from "@mols/HomepageCards/FeaturesCard";
 import Typography from "@atoms/Typography";
 import { cardData } from "./cardData";
-import SocialsCard from "@/components/molecules/HomepageCards/SocialsCard";
+import SocialsCard from "@mols/HomepageCards/SocialsCard";
 
 const FeaturesSection = () => {
   return (

@@ -1,6 +1,6 @@
-import Typography from "@/components/atoms/Typography";
+import Typography from "@atoms/Typography";
 import React from "react";
-import largeGhost from "../../../images/ghost.svg";
+import largeGhost from "@/images/ghost.svg";
 
 const Footer: React.FC = () => {
   return (
