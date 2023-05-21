@@ -45,6 +45,7 @@ module.exports = {
       lg: "976px",
       xl: "1200px",
       "2xl": "1440px",
+      "3xl": "1512px",
     },
     container: {
       center: true,
@@ -61,6 +62,7 @@ module.exports = {
         lg: '960px',
         xl: '1140px',
         '2xl': '1260px',
+        '3xl': '1440px',
       },
     },
   },
