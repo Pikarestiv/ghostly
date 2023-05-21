@@ -1,16 +1,20 @@
 import React from "react";
 // import AppLayout from "@temps/AppLayout";
-import AppLayout from "../../templates/AppLayout";
+// import AppLayout from "../../templates/AppLayout";
+import "./homepage.scss";
+import FeaturesSection from "@orgs/HomepageSections/FeaturesSection.tsx";
+import Footer from "@mols/Footer";
+import HeroSection from "@/components/organisms/HomepageSections/HeroSection";
 
 const HomePage: React.FC = () => {
   return (
-    <AppLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-4 text-center">
-          Welcome to the Home Page
-        </h1>
+    <div className="w-full">
+      <HeroSection />
+      <div className="container mt-[100px]">
+        <FeaturesSection />
+        <Footer />
       </div>
-    </AppLayout>
+    </div>
   );
 };
 
