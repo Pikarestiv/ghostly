@@ -23,7 +23,7 @@ const FeaturesSection = () => {
         {cardData?.length > 0 &&
           cardData?.map((data, i) => <FeaturesCard key={i} {...data} />)}
       </div>
-      <div className="w-[1312px]">
+      <div className="w-[1312px] mb-[135px]">
         <SocialsCard />
       </div>
     </div>

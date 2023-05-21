@@ -7,11 +7,8 @@ const HomePage: React.FC = () => {
   return (
     <div className="w-full">
       <HeroSection />
-      {/* <div className="mt-[100px] mx-[175px] flex flex-col items-center"> */}
-      <div className="container mt-[100px]">
-        <div className="flex flex-col items-center">
-          <FeaturesSection />
-        </div>
+      <div className="container mt-[100px] flex flex-col items-center">
+        <FeaturesSection />
       </div>
       <Footer />
     </div>

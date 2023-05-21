@@ -1,5 +1,3 @@
-// src/components/organisms/Header.tsx
-
 import React from "react";
 import { Link } from "react-router-dom";
 import CustomButton from "@atoms/CustomButton";
@@ -30,7 +28,10 @@ const Header: React.FC = () => {
           </li>
 
           <li>
-            <CustomButton onClick={() => window.open("/register", "_self")}>
+            <CustomButton
+              onClick={() => window.open("/register", "_self")}
+              className=" bg-light hover:bg-red text-blue hover:text-light "
+            >
               Sign Up
             </CustomButton>
           </li>

@@ -1,5 +1,4 @@
 import Typography from "@atoms/Typography";
-// import "./featurescard.scss";
 import tinyPeople from "@/images/tiny-people.png";
 import instagram from "@/images/instagram.svg";
 import twitter from "@/images/twitter.svg";
@@ -30,26 +29,34 @@ const SocialsCard = () => {
             Reach out to us on our socials
           </Typography>
           <div className="flex items-center">
-            <span className="flex gap-[15px] items-center">
+            <a
+              className="flex gap-[15px] items-center"
+              href="https://instagram.com"
+            >
               <img src={instagram} alt="instagram icon" className="w-[28px]" />
               <Typography className="" variant="h4">
                 Instagram
               </Typography>
-            </span>
+            </a>
             <span className="bg-light w-[10px] h-[10px] rounded-full ml-[30px] mr-[42px]"></span>
-            <span className="flex gap-[15px] items-center">
+
+            <a
+              className="flex gap-[15px] items-center"
+              href="https://twitter.com"
+            >
               <img src={twitter} alt="twitter icon" className="w-[28px]" />
               <Typography className="" variant="h4">
                 Twitter
               </Typography>
-            </span>
+            </a>
             <span className="bg-light w-[10px] h-[10px] rounded-full ml-[30px] mr-[42px]"></span>
-            <span className="flex gap-[15px] items-center">
+
+            <a className="flex gap-[15px] items-center" href="https://fb.com">
               <img src={facebook} alt="facebook icon" className="w-[28px]" />
               <Typography className="" variant="h4">
                 Facebook
               </Typography>
-            </span>
+            </a>
           </div>
         </div>
       </div>

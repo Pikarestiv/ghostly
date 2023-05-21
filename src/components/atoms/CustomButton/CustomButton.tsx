@@ -15,7 +15,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
 }) => {
   return (
     <button
-      className={`${className} bg-light hover:bg-red text-blue hover:text-light text-2xl font-semibold py-[16px] px-[40px] rounded-[36px]`}
+      className={`${className} text-2xl font-semibold py-[16px] px-[40px] rounded-[36px]`}
       onClick={onClick}
       disabled={disabled}
     >
