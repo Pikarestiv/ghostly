@@ -1,6 +1,6 @@
 {
-  "short_name": "Ghostly",
   "name": "Ghostly - Anonymous Messaging",
+  "short_name": "Ghostly",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,8 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
   "theme_color": "#ff576b",
-  "background_color": "#ff576b"
+  "background_color": "#ff576b",
+  "display": "standalone"
 }
