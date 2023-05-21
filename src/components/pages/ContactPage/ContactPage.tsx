@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const ContactPage: React.FC = () => {
+  useEffect(() => {
+    document.title = "Ghostly - Contact Us";
+  }, []);
+
   return (
     <div>
       <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
